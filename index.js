@@ -103,3 +103,5 @@ app.get("/", (req, res) =>{
 app.listen(PORT,() =>{
     console.log("This Backend Port is",PORT)
 })
+
+export default app;
